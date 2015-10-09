@@ -17,6 +17,17 @@ html {
   box-sizing: inherit;
 }
 
+#h1{
+  font-family: 'Poiret One', cursive;
+}
+
+
+
+
+
+
+
+
 @media only screen and (min-width: 38rem) {
 
   html{
