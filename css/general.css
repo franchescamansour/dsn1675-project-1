@@ -11,16 +11,60 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+
+  background-color: grey;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-#h1{
-  font-family: 'Poiret One', cursive;
+body{
+  margin: 0 auto;
 }
 
+/****Header****/
+
+h1{
+  font-family: 'Poiret One', cursive;
+  text-align: center;
+  background-color: red;
+}
+
+/*************/
+
+/****Body****/
+
+p{
+  font-family: Verdana;
+  background-color: pink;
+}
+
+h2{
+  font-family: 'Poiret One', cursive;
+  background-color: green;
+}
+
+#social{
+  margin-left: 20rem;
+}
+
+.icons {
+  border: dotted;
+  list-style: none;
+}
+
+
+/***********/
+
+/****Footer****/
+
+footer{
+  font-family: 'Poiret One', cursive;
+  text-align: center;
+  background-color: orange;
+}
+/***********/
 
 
 
@@ -35,6 +79,10 @@ html {
     line-height: 1.4;
   }
 
+  p{
+    max-width: 30rem;
+  }
+
 }
 
 @media only screen and (min-width: 60rem) {
@@ -42,6 +90,10 @@ html {
   html{
     font-size: 120%;
     line-height: 1.5;
+  }
+
+  p{
+    max-width: 48rem;
   }
 
 }
