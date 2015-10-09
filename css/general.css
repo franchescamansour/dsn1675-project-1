@@ -11,8 +11,6 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-
-  background-color: grey;
 }
 
 *, *::before, *::after {
@@ -75,10 +73,7 @@ footer{
 /***********/
 
 
-
-
-
-
+/***Media Queiry***/
 
 @media only screen and (min-width: 38rem) {
 
