@@ -19,11 +19,12 @@ html {
   box-sizing: inherit;
 }
 
-body{
+/****Header****/
+
+.banner{
+  max-width: 40em;
   margin: 0 auto;
 }
-
-/****Header****/
 
 h1{
   font-family: 'Poiret One', cursive;
@@ -38,6 +39,8 @@ h1{
 p{
   font-family: Verdana;
   background-color: pink;
+  max-width: 40em;
+  margin: 0 auto;
 }
 
 h2{
@@ -45,15 +48,20 @@ h2{
   background-color: green;
 }
 
-#social{
-  margin-left: 20rem;
+#artwork{
+  max-width: 40em;
+  margin: 0 auto;
 }
 
-.icons {
+#social{
+  max-width: 40em;
+  margin: 0 auto;
+}
+
+.icons{
   border: dotted;
   list-style: none;
 }
-
 
 /***********/
 
