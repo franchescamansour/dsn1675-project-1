@@ -17,7 +17,12 @@ html {
   box-sizing: inherit;
 }
 
+
 /****Header****/
+
+.banner img{
+  width: 100%;
+}
 
 .banner{
   max-width: 40em;
@@ -25,20 +30,28 @@ html {
 }
 
 h1{
-  font-family: 'Poiret One', cursive;
+  font-family: 'Abril Fatface', cursive;
+  color: white;
+  line-height: 3rem;
+  font-size: 4rem;
   text-align: center;
-  background-color: red;
+  margin-top: -6rem;
 }
 
 /*************/
 
 /****Body****/
 
+body{
+  margin: 0 auto;
+}
+
 p{
   font-family: Verdana;
-  background-color: pink;
+  text-align: center;
   max-width: 40em;
   margin: 0 auto;
+  padding-bottom: 2rem;
 }
 
 h2{
@@ -46,9 +59,11 @@ h2{
   background-color: green;
 }
 
-#artwork{
-  max-width: 40em;
-  margin: 0 auto;
+.flex{
+  margin-left: 4rem;
+  padding-bottom: 1rem;
+  width: 70%;
+  border-radius: 50%;
 }
 
 #social{
@@ -59,6 +74,10 @@ h2{
 .icons{
   border: dotted;
   list-style: none;
+}
+
+.icons li{
+  display: inline-block;
 }
 
 /***********/
