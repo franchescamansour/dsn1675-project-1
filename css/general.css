@@ -76,7 +76,7 @@ h2{
 }
 
 .flex:hover{
-  border: 50px solid black;
+  border: 50px solid yellow;
 }
 
 .flex{
@@ -92,13 +92,14 @@ h2{
 }
 
 .icons{
-  border: dotted;
   list-style: none;
 }
 
 .icons li{
   display: inline-block;
   margin-right: 3.4rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 /***********/
