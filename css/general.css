@@ -47,16 +47,36 @@ body{
 }
 
 p{
-  font-family: Verdana;
+  font-family: 'Raleway', sans-serif;
+  color: #525252;
   text-align: center;
-  max-width: 40em;
+  max-width: 20em;
   margin: 0 auto;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 }
 
 h2{
-  font-family: 'Poiret One', cursive;
-  background-color: green;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 4rem;
+  color: white;
+  text-align: center;
+}
+
+#Artwork{
+  background-color: #525252;
+  margin: 0 auto;
+}
+
+.flex {
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+
+.flex:hover{
+  border: 50px solid black;
 }
 
 .flex{
@@ -78,6 +98,7 @@ h2{
 
 .icons li{
   display: inline-block;
+  margin-right: 3.4rem;
 }
 
 /***********/
@@ -85,9 +106,8 @@ h2{
 /****Footer****/
 
 footer{
-  font-family: 'Poiret One', cursive;
+  font-family: 'Raleway', sans-serif;
   text-align: center;
-  background-color: orange;
 }
 /***********/
 
