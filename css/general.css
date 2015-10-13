@@ -92,6 +92,7 @@ h2{
 
 .icons{
   list-style: none;
+  text-align: center;
 }
 
 .icons li{
@@ -144,10 +145,6 @@ footer{
     margin-bottom: 2rem;
   }
 
-  .icons{
-    margin-left: 20%;
-  }
-
 }
 
 /****Large-Desktop****/
@@ -171,10 +168,6 @@ footer{
 
   h2{
     font-size: 5.5rem;
-  }
-
-  .icons{
-    margin-left: 30%;
   }
 
 }
