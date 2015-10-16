@@ -175,23 +175,48 @@ footer{
 }
 
 /****Styling-for-Print****/
+@page{
+  size: landscape;
+}
+
 @media print{
 
-  nav{
-    display: none;
-  }
-
-  main a::after{
-    content: " (" attr(href) ")";
-    color: #999;
-  }
-
   .banner img{
-    width: 50%;
+    width: 30%;
   }
 
   h1{
-    font-size: 2rem;
+    font-size: 1.2rem;
+    font-family: Verdana, sans-serif;
+    color: black;
+    margin-top: -9em;
   }
+
+  p{
+    max-width: 40em;
+    font-family: Verdana, sans-serif;
+    color: black;
+  }
+
+  h2{
+    display: none;
+  }
+
+  h1,
+  p{
+    padding-left: 13em;
+    text-align: left;
+  }
+
+  footer{
+    text-align: left;
+    margin-left: 22em;
+  }
+
+  .flex,
+  .icons{
+    display: none;
+  }
+
 
 }
